@@ -7,9 +7,10 @@ import { placeholder } from './placeholder';
 const makeShields = ({ profiles, style, shieldFormat }: Config) =>
   profiles.map(profile => {
     const shieldName = getShieldImageFileName(profile, style, shieldFormat);
-    const shieldURL = `./shields/${shieldName}`;
+    const src = `/yanli0303/yanli0303/raw/master/shields/${shieldName}`;
+    const img = `<img alt="${profile.label}" src="${src}" width="24" height="24" />`;
     const homepage = placeholder(profile.urlTemplate, profile);
-    return `[![${profile.label}](${shieldURL})](${homepage})`;
+    return `[${img}](${homepage})`;
   });
 
 const updateSection = (
