@@ -1,10 +1,10 @@
 ### Hi there, I'm Yan Li 👋
 
 <!--SHIELDS_BEGIN-->
-[<img alt="Yan Li - GitHub" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/GitHub-yanli0303-icon-only-flat.svg" width="24" height="24" />](https://github.com/yanli0303/)
-[<img alt="Yan Li - LinkedIn" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/LinkedIn-yanli0303-icon-only-flat.svg" width="24" height="24" />](https://www.linkedin.com/in/yanli0303/)
-[<img alt="Yan Li - Email" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/Email-yanli0303@outlook.com-icon-only-flat.svg" width="24" height="24" />](mailto:yanli0303@outlook.com)
-[<img alt="Yan Li - CodeSandbox" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/CodeSandbox-yanli0303-icon-only-flat.svg" width="24" height="24" />](https://codesandbox.io/u/yanli0303/)
+[<img alt="Yan Li - GitHub" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/GitHub-yanli0303-icon-only-flat.png" width="24" height="24" />](https://github.com/yanli0303/)
+[<img alt="Yan Li - LinkedIn" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/LinkedIn-yanli0303-icon-only-flat.png" width="24" height="24" />](https://www.linkedin.com/in/yanli0303/)
+[<img alt="Yan Li - Email" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/Email-yanli0303@outlook.com-icon-only-flat.png" width="24" height="24" />](mailto:yanli0303@outlook.com)
+[<img alt="Yan Li - CodeSandbox" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/CodeSandbox-yanli0303-icon-only-flat.png" width="24" height="24" />](https://codesandbox.io/u/yanli0303/)
 <!--SHIELDS_END-->
 
 I'm a full-stack web developer who leans toward front-end and is passionate about empowering people with technology.
@@ -24,10 +24,7 @@ I'm a full-stack web developer who leans toward front-end and is passionate abou
 <!--GET_IN_TOUCH_END-->
 
 <br/>
+Updated on: Thu Aug 13 2020 15:41:24 GMT-0400 (Eastern Daylight Time)
 <br/>
-<br/>
-<br/>
-Last updated on: Thu Aug 13 2020 14:21:44 GMT-0400 (Eastern Daylight Time)
-<br/>
-<br/>
+
 ![Visits](https://enhrg2qpogcatw6.m.pipedream.net)

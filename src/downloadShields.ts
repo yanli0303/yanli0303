@@ -1,3 +1,4 @@
+import { convert } from 'convert-svg-to-png';
 import { download, fs } from 'node-build-tools';
 import path from 'path';
 
@@ -8,8 +9,19 @@ import { ShieldStyle } from './ShieldStyle';
 export const getShieldImageFileName = (
   profile: Profile,
   style: string,
-  format: ShieldFormat
-) => `${profile.label}-${profile.username}-${format}-${style}.svg`;
+  format: ShieldFormat,
+  ext: string = 'svg'
+) => `${profile.label}-${profile.username}-${format}-${style}.${ext}`;
+
+const svgToPng = async (svg: string, background: string) => {
+  const content = fs.readFileSync(svg, { encoding: 'utf-8' });
+  const png = await convert(Buffer.from(content), {
+    background,
+    height: 24,
+    width: 24,
+  });
+  fs.writeFileSync(svg.replace(/\.svg$/, '.png'), png);
+};
 
 export const downloadShields = async (profiles: Profile[], dir: string) => {
   const styles = Object.values(ShieldStyle);
@@ -35,6 +47,7 @@ export const downloadShields = async (profiles: Profile[], dir: string) => {
 
         console.log(`${format}: ${url}`);
         await download(url, saveAs);
+        await svgToPng(saveAs, profile.iconColor);
       }
 
       console.groupEnd();

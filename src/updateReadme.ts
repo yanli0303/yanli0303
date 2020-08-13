@@ -6,7 +6,12 @@ import { placeholder } from './placeholder';
 
 const makeShields = ({ profiles, style, shieldFormat }: Config) =>
   profiles.map(profile => {
-    const shieldName = getShieldImageFileName(profile, style, shieldFormat);
+    const shieldName = getShieldImageFileName(
+      profile,
+      style,
+      shieldFormat,
+      'png'
+    );
     const src = `https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/${shieldName}`;
     const img = `<img alt="Yan Li - ${profile.label}" src="${src}" width="24" height="24" />`;
     const homepage = placeholder(profile.urlTemplate, profile);
@@ -67,7 +72,7 @@ const updateGetInTouch = (lines: string[], config: Config) =>
   );
 
 const updateLastUpdated = (lines: string[]) => {
-  const lastUpdatedPrefix = 'Last updated on: ';
+  const lastUpdatedPrefix = 'Updated on: ';
   return lines.map(line => {
     if (line.startsWith(lastUpdatedPrefix)) {
       const lastUpdated = new Date().toString();
