@@ -54,7 +54,7 @@ const config: Config = {
 };
 
 const CWD = process.cwd();
-const DIR_SHIELDS = path.join(CWD, 'shields');
-downloadShields(config.profiles, DIR_SHIELDS)
+const DIR_SHIELDS = path.join(CWD, 'assets');
+downloadShields(config, DIR_SHIELDS)
   .then(() => updateReadme(path.join(CWD, 'README.md'), config))
   .catch(console.error);

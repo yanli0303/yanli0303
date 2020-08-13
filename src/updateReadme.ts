@@ -6,13 +6,8 @@ import { placeholder } from './placeholder';
 
 const makeShields = ({ profiles, style, shieldFormat }: Config) =>
   profiles.map(profile => {
-    const shieldName = getShieldImageFileName(
-      profile,
-      style,
-      shieldFormat,
-      'png'
-    );
-    const src = `https://raw.githubusercontent.com/yanli0303/yanli0303/master/shields/${shieldName}`;
+    const shieldName = getShieldImageFileName(profile, style, shieldFormat);
+    const src = `https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/${shieldName}`;
     const img = `<img alt="Yan Li - ${profile.label}" src="${src}" width="24" height="24" />`;
     const homepage = placeholder(profile.urlTemplate, profile);
     return `[${img}](${homepage})`;
