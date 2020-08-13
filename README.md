@@ -1,10 +1,10 @@
 ### Hi there, I'm Yan Li 👋
 
 <!--SHIELDS_BEGIN-->
-[<img alt="Yan Li - GitHub" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/github.png" width="24" height="24" />](https://github.com/yanli0303/)
-[<img alt="Yan Li - LinkedIn" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/linkedin.png" width="24" height="24" />](https://www.linkedin.com/in/yanli0303/)
-[<img alt="Yan Li - Email" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/email.png" width="24" height="24" />](mailto:yanli0303@outlook.com)
-[<img alt="Yan Li - CodeSandbox" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/codesandbox.png" width="24" height="24" />](https://codesandbox.io/u/yanli0303/)
+[<img alt="Yan Li - GitHub" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/github@2x.png" width="24" height="24" />](https://github.com/yanli0303/)
+[<img alt="Yan Li - LinkedIn" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/linkedin@2x.png" width="24" height="24" />](https://www.linkedin.com/in/yanli0303/)
+[<img alt="Yan Li - Email" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/email@2x.png" width="24" height="24" />](mailto:yanli0303@outlook.com)
+[<img alt="Yan Li - CodeSandbox" src="https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/codesandbox@2x.png" width="24" height="24" />](https://codesandbox.io/u/yanli0303/)
 <!--SHIELDS_END-->
 
 I'm a full-stack web developer who leans toward front-end and is passionate about empowering people with technology.
@@ -24,7 +24,7 @@ I'm a full-stack web developer who leans toward front-end and is passionate abou
 <!--GET_IN_TOUCH_END-->
 
 <br/>
-Updated on: Thu Aug 13 2020 16:54:29 GMT-0400 (Eastern Daylight Time)
+Updated on: Thu Aug 13 2020 16:57:05 GMT-0400 (Eastern Daylight Time)
 <br/>
 
 ![Visits](https://enhrg2qpogcatw6.m.pipedream.net)
