@@ -1,0 +1,36 @@
+{
+  "name": "github-profile-readme-yanli0303",
+  "version": "1.0.0",
+  "description": "Yan Li's GitHub profile readme.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tsdx lint --fix",
+    "prebuild": "yarn lint",
+    "build": "tsdx build",
+    "postbuild": "node dist/index.js"
+  },
+  "dependencies": {
+    "husky": "^4.2.5",
+    "node-build-tools": "^0.2.5",
+    "tsdx": "^0.13.2",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanli0303/yanli0303.git"
+  },
+  "keywords": [
+    "GitHub",
+    "README",
+    "yanli0303"
+  ],
+  "author": "Yan Li",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/yanli0303/yanli0303/issues"
+  },
+  "homepage": "https://github.com/yanli0303/yanli0303#readme"
+}
