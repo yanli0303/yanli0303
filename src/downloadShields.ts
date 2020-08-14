@@ -12,7 +12,7 @@ export const getShieldImageFileName = (
   format: ShieldFormat
 ) => {
   if (format === ShieldFormat.iconOnly) {
-    return `${profile.label.toLowerCase()}@2x.png`;
+    return `${profile.label.toLowerCase()}@4x.png`;
   }
 
   return `${profile.label}-${profile.username}-${format}-${style}.svg`;
