@@ -8,34 +8,27 @@
     <meta name="description" content="Yan Li's resume" />
     <meta name="author" content="Yan Li" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>Yan Li</title>
+    <link
+      href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900'
+      rel='stylesheet'
+      type='text/css'
+    >
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
+    <div style="position:absolute;left:-9999px">
+      <img src="img/drop-color.png">
+      <img src="img/drop-alpha.png">
+      <img src="img/weather/texture-drizzle-fg.png">
+      <img src="img/weather/texture-drizzle-bg.png">
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <canvas style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1" id="rainy"></canvas>
+    <script src="js/rainy.min.js"></script>
   </body>
 </html>
