@@ -1,0 +1,12 @@
+html, body {
+  overflow: hidden;
+}
+
+.resume {
+  background-color: #f5f7f1;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  height: 100vh;
+  max-width: 920px;
+  overflow: auto;
+  padding: 0;
+}
