@@ -1,14 +1,32 @@
 {
+  "cSpell.words": [
+    "bulma"
+  ],
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
   "eslint.format.enable": true,
   "eslint.packageManager": "yarn",
-  "importSorter.importStringConfiguration.tabSize": 2,
-  "importSorter.importStringConfiguration.trailingComma": "multiLine",
-  "importSorter.sortConfiguration.removeUnusedImports": true,
-  "importSorter.sortConfiguration.removeUnusedDefaultImports": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "maxLineLength",
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.trailingComma": "multiLine",
+  "importSorter.sortConfiguration.removeUnusedDefaultImports": false,
+  "importSorter.sortConfiguration.removeUnusedImports": true,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/docs": true,
+    "**/node_modules": true,
+    "**/public": true,
+    "**/yarn.lock": true
+  }
 }
