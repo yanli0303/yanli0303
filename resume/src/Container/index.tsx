@@ -2,10 +2,12 @@ import './index.css';
 
 import React from 'react';
 
-import BasicInfo from '../BasicInfo';
+import { BasicInfo } from '../BasicInfo';
 
 export default () => (
-  <div className="container resume">
-    <BasicInfo />
-  </div>
+  <section className="hero is-fullheight">
+    <section className="container resume">
+      <BasicInfo />
+    </section>
+  </section>
 );

@@ -1,0 +1,10 @@
+.photo {
+  width: 8em;
+  height: 8em;
+  border-radius: 4em;
+}
+
+.heading > .icon.is-small {
+  margin: -0.2em 0.5em 0 0;
+  vertical-align: middle;
+}
