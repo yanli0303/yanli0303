@@ -11,7 +11,9 @@ export const BasicInfo = () => (
     </div>
     <div className="tile is-parent is-vertical">
       <div className="tile is-parent">
-        <h1 className="tile is-child has-text-centered title">Yan Li</h1>
+        <div className="tile is-child has-text-centered">
+          <h1 className="title is-1">Yan Li</h1>
+        </div>
       </div>
       <div className="tile is-parent">
         <div className="tile is-child has-text-centered">
