@@ -26,7 +26,7 @@ I'm a full-stack web developer who leans toward front-end and is passionate abou
 <!--GET_IN_TOUCH_END-->
 
 <br/>
-Updated on: Thu Aug 13 2020 21:06:49 GMT-0400 (Eastern Daylight Time)
+Updated on: Sat Aug 29 2020 13:10:15 GMT-0400 (Eastern Daylight Time)
 <br/>
 
 ![Visits](https://enhrg2qpogcatw6.m.pipedream.net)
