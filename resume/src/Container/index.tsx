@@ -3,13 +3,13 @@ import './index.css';
 import React from 'react';
 
 import { BasicInfo } from '../BasicInfo';
-import { TechSkills } from '../TechSkills';
+import { Skills } from '../Skills';
 
 export default () => (
   <section className="hero is-fullheight">
     <section className="container box resume">
       <BasicInfo />
-      <TechSkills />
+      <Skills />
     </section>
   </section>
 );

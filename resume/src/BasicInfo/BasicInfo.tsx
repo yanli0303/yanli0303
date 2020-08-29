@@ -12,7 +12,7 @@ export const BasicInfo = () => (
     <div className="tile is-parent is-vertical">
       <div className="tile is-parent">
         <div className="tile is-child has-text-centered">
-          <h1 className="title is-1">Yan Li</h1>
+          <h3 className="title is-3">Yan Li</h3>
         </div>
       </div>
       <div className="tile is-parent">
@@ -86,6 +86,13 @@ export const BasicInfo = () => (
               linkedin.com/in/yanli0303
             </a>
           </p>
+        </div>
+      </div>
+      <div className="tile is-parent">
+        <div className="tile is-child">
+          I&apos;m a full-stack web developer who leans toward front-end and
+          looking for senior software engineer role in Northern Virginia, San
+          Francisco Bay Area, and Greater Seattle Area.
         </div>
       </div>
     </div>
