@@ -1,10 +1,25 @@
-html, body {
-  overflow: hidden;
-}
-
 .resume {
   background-color: rgba(245,247,241,0.9);
   padding: 1em;
   width: 100%;
   max-width: 960px;
+}
+
+.resume > * {
+  margin: -0.75em 0 2em;
+}
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .columns .column.has-text-centered {
+    text-align: left !important;
+  }
+
+  .columns .column.has-text-right {
+    text-align: left !important;
+  }
 }

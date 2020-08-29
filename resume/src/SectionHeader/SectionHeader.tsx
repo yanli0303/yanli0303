@@ -3,7 +3,8 @@ import './SectionHeader.css';
 import React from 'react';
 
 export const SectionHeader = ({ title }: { title: string }) => (
-  <header>
-    <h5 className="title is-5 section-header">{title}</h5>
+  <header className="section-header arrow-right">
+    <h6 className="title is-6 arrow-item">{title}</h6>
+    <hr />
   </header>
 );

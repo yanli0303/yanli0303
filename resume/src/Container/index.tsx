@@ -3,13 +3,17 @@ import './index.css';
 import React from 'react';
 
 import { BasicInfo } from '../BasicInfo';
+import { Education } from '../Education';
+import { Experiences } from '../Experiences';
 import { Skills } from '../Skills';
 
 export default () => (
-  <section className="hero is-fullheight">
-    <section className="container box resume">
+  <div className="hero">
+    <div className="container box resume">
       <BasicInfo />
       <Skills />
-    </section>
-  </section>
+      <Experiences />
+      <Education />
+    </div>
+  </div>
 );

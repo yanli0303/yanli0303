@@ -1,5 +1,46 @@
 .section-header {
-  border-bottom: 1px solid #000;
+  display: block;
+  position: relative;
+  overflow: hidden;
   text-transform: uppercase;
-  margin: 0.5em 0;
+}
+
+.section-header > hr {
+  position: absolute;
+  background-color: #3273dc;
+  height: 1px;
+  left: 0;
+  top: -9px;
+  width: 100%;
+  z-index: 1;
+}
+
+.arrow-item {
+  display: block;
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 30px;
+  margin: 0 10px 10px 0 !important;
+  padding: 0 1em;
+  color: #fff;
+  background-color: #3273dc;
+  border-radius: 3px;
+  line-height: 30px;
+  text-align: center;
+  z-index: 2;
+}
+.arrow-item:before {
+  content: "";
+  position: absolute;
+  right: -7px;
+  height: 0;
+  width: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 8px solid #3273dc;
+  border-radius: 3px;
+}
+.arrow-item:first-child:after {
+  display: none;
 }
