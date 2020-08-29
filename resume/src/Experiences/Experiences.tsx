@@ -31,6 +31,19 @@ export const Experiences = () => (
             <img className="icon is-small" src={WorkstationLogo} alt="" />
             <span>Workstation</span>
           </div>
+          <p>
+            As technical lead, I participated in the design and development of
+            Workstation macOS application, the unified tools for MicroStrategy
+            Products. Solely implemented R and Python integration,
+            authentication, and dossier sharing. With Jenkins I built the
+            development infrastructure, including the CI, automated Pull Request
+            validation, localization workflow, automated UI and Unit Testing
+            frameworks that saved 50% time for developers. In my spare time I
+            created a web application named &quot;Lost In Translation&quot; that
+            made localization much easier, it was adopted by DevOps and applied
+            to most projects in MicroStrategy. I also interviewed and mentored
+            associate engineers.
+          </p>
         </li>
       </ul>
     </div>
