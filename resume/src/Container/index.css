@@ -29,7 +29,7 @@
   margin-top: -0.75rem;
 }
 
-.heading > .icon.is-small {
+.heading .icon.is-small {
   display: inline-block;
   margin: -0.2em 0.5em 0 0;
   vertical-align: middle;

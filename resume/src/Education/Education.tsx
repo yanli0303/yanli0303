@@ -6,7 +6,7 @@ export const Education = () => (
   <section>
     <SectionHeader title="Education" />
     <div className="columns is-2">
-      <div className="column is-4">North Minzu University (China)</div>
+      <div className="column is-4">North Minzu University</div>
       <div className="column is-5 has-text-centered">
         Bachelor, Computer Science and Technology
       </div>
