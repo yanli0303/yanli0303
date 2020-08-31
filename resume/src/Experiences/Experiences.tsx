@@ -54,7 +54,7 @@ export const Experiences = () => (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://gist.github.com/yanli0303/53379426aab525e313ee67e7eaee70d9#file-micro-module-services-md"
+              href="https://gist.github.com/yanli0303/53379426aab525e313ee67e7eaee70d9"
             >
               Micro Module Services
             </a>

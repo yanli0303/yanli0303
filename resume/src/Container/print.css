@@ -1,0 +1,18 @@
+@media print {
+  #rainy {
+    display: none;
+  }
+
+  .resume {
+    background-color: #fff;
+    box-shadow: none;
+  }
+
+  @page {
+    margin: 1em 0.5em;
+  }
+
+  body {
+    margin: 1em 0.5em;
+  }
+}

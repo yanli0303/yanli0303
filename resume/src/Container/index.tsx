@@ -1,4 +1,5 @@
 import './index.css';
+import './print.css';
 
 import React from 'react';
 
