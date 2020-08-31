@@ -12,7 +12,38 @@ export const BasicInfo = () => (
     <div className="tile is-parent is-vertical">
       <div className="tile is-parent">
         <div className="tile is-child has-text-centered">
-          <h3 className="title is-3">Yan Li</h3>
+          <h3 className="title is-3">
+            <span>Yan Li</span>
+            <button
+              id="printer"
+              type="button"
+              className="button is-borderless is-pulled-right is-small"
+              onClick={window.print}
+            >
+              <svg
+                className="icon is-small"
+                role="img"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="512px"
+                height="512px"
+                viewBox="0 0 512 512"
+                enableBackground="new 0 0 512 512"
+              >
+                <g>
+                  <rect x="160.008" y="384" width="159.984" height="32" />
+                  <path d="M128.008,32h255.984v64h32V32c0-17.656-14.313-32-32-32H128.008c-17.672,0-32,14.344-32,32v64h32V32z" />
+                  <rect x="160.008" y="320" width="191.984" height="32" />
+                  <path
+                    d="M479.992,128H32.008c-17.672,0-32,14.344-32,32v192c0,17.688,14.328,32,32,32h64v96c0,17.688,14.328,32,32,32h255.984
+    c17.688,0,32-14.313,32-32v-96h64c17.688,0,32-14.313,32-32V160C511.992,142.344,497.68,128,479.992,128z M383.992,480H128.008V288
+    h255.984V480z M447.992,224c-17.688,0-32-14.313-32-32c0-17.656,14.313-32,32-32s32,14.344,32,32
+    C479.992,209.688,465.68,224,447.992,224z"
+                  />
+                </g>
+              </svg>
+            </button>
+          </h3>
         </div>
       </div>
       <div className="tile is-parent">
