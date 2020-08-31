@@ -45,12 +45,35 @@ export const Experiences = () => (
           </div>
           <p>
             I took on the Engineering Manager role in the Hyper division. I led
-            the designs of HypeIntelligence for Office, Web, and Desktop, built
-            development infrastructures including CI pipelines, i18n workflows,
-            NPM package publishing and UI/Integration/Acceptance/Unit Testing
-            frameworks, and Pull Request validators. I initiated software design
-            discussions and proposed a loosely coupled application architecture
-            named&nbsp;
+            the designs of HypeIntelligence for&nbsp;
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://demo.microstrategy.com/MicroStrategyLibrary/static/hyper/office/index.html"
+            >
+              Office
+            </a>
+            ,&nbsp;
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://chrome.google.com/webstore/detail/microstrategy-hyperintell/ikaoafechdeidffgniffdhdckeclcdhf?hl=en"
+            >
+              Web
+            </a>
+            , and&nbsp;
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://apps.apple.com/us/app/microstrategy/id1517716679"
+            >
+              Desktop
+            </a>
+            , built development infrastructures including CI pipelines, i18n
+            workflows, NPM package publishing and UI/Integration/Acceptance/Unit
+            Testing frameworks, and Pull Request validators. I initiated
+            software design discussions and proposed a loosely coupled
+            application architecture named&nbsp;
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +97,7 @@ export const Experiences = () => (
           </div>
           <p>
             As the technical lead, I participated in the design and development
-            of Workstation macOS application, the unified tools for
+            of the Workstation macOS application, the unified tools for
             MicroStrategy Products. Solely implemented R and Python integration,
             authentication, and dossier sharing. With Jenkins, I built the
             development infrastructure, including the CI, i18n workflows, UI and
