@@ -97,7 +97,13 @@ export const BasicInfo = () => (
             GITHUB
           </p>
           <p>
-            <a href="https://github.com/yanli0303/">github.com/yanli0303</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/yanli0303/"
+            >
+              github.com/yanli0303
+            </a>
           </p>
         </div>
         <div className="tile is-child has-text-centered">
@@ -113,7 +119,11 @@ export const BasicInfo = () => (
             LINKEDIN
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/yanli0303/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/yanli0303/"
+            >
               linkedin.com/in/yanli0303
             </a>
           </p>
