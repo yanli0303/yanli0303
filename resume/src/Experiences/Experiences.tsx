@@ -42,6 +42,11 @@ export const Experiences = () => (
             >
               Hyper Intelligence
             </a>
+            <span>
+              {' '}
+              - inject analytics and intelligence into every user&apos;s
+              experience.
+            </span>
           </div>
           <p>
             I took on the Engineering Manager role in the Hyper division. I led
@@ -69,11 +74,10 @@ export const Experiences = () => (
             >
               Desktop
             </a>
-            , built development infrastructures including CI pipelines, i18n
-            workflows, NPM package publishing and UI/Integration/Acceptance/Unit
-            Testing frameworks, and Pull Request validators. I initiated
-            software design discussions and proposed a loosely coupled
-            application architecture named&nbsp;
+            , built development infrastructures including CI/CD pipelines, i18n
+            workflows, and testing frameworks. I initiated software design
+            discussions and proposed a loosely coupled application architecture
+            named&nbsp;
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -94,19 +98,17 @@ export const Experiences = () => (
             >
               Workstation
             </a>
+            <span> - the unified tools for MicroStrategy Products</span>
           </div>
           <p>
             As the technical lead, I participated in the design and development
-            of the Workstation macOS application, the unified tools for
-            MicroStrategy Products. Solely implemented R and Python integration,
-            authentication, and dossier sharing. With Jenkins, I built the
-            development infrastructure, including the CI, i18n workflows, UI and
-            Unit Testing frameworks, and Pull Request validators that saved 40%
-            of the time for developers. In my spare time, I created a web
-            application named &quot;Lost In Translation&quot; that made
-            localization much easier, it was adopted by the DevOps and applied
-            to most projects in MicroStrategy. I also interviewed and mentored
-            associate engineers.
+            of the Workstation macOS application. Solely implemented a number of
+            features including the R and Python integration and authentication.
+            With Jenkins, I built the CI/CD pipelines and i18n workflows that
+            saved 40% of the time for developers. In my spare time, I created a
+            web application named &quot;Lost In Translation&quot; that made
+            localization much easier, it was applied to most projects in
+            MicroStrategy. I also interviewed and mentored associate engineers.
           </p>
         </li>
       </ul>

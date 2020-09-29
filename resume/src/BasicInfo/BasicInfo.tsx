@@ -131,9 +131,9 @@ export const BasicInfo = () => (
       </div>
       <div className="tile is-parent">
         <div className="tile is-child">
-          I&apos;m a full-stack web developer who leans toward the front-end and
-          looking for a senior software engineer role in the Northern Virginia,
-          the San Francisco Bay Area, and the Greater Seattle Area.
+          I&apos;m a full-stack web developer who leans toward the front-end.
+          I&apos;m looking for a senior software engineer role in both west and
+          east coasts.
         </div>
       </div>
     </div>
