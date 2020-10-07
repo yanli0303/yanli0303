@@ -13,8 +13,7 @@
   "eslint.packageManager": "yarn",
   "files.exclude": {
     "**/.DS_Store": true,
-    "**/.git": true,
-    "**/node_modules": true
+    "**/.git": true
   },
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "maxLineLength",
