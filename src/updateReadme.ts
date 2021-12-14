@@ -5,7 +5,7 @@ import { getShieldImageFileName } from './downloadShields';
 import { placeholder } from './placeholder';
 
 const makeShields = ({ profiles, style, shieldFormat }: Config) =>
-  profiles.map(profile => {
+  profiles.map((profile) => {
     const shieldName = getShieldImageFileName(profile, style, shieldFormat);
     const src = `https://raw.githubusercontent.com/yanli0303/yanli0303/master/assets/${shieldName}`;
     const img = `<img alt="Yan Li - ${profile.label}" src="${src}" width="24" height="24" />`;
@@ -59,7 +59,7 @@ const updateGetInTouch = (lines: string[], config: Config) =>
     lines,
     '<!--GET_IN_TOUCH_BEGIN-->',
     '<!--GET_IN_TOUCH_END-->',
-    config.profiles.map(p => {
+    config.profiles.map((p) => {
       const homepage = placeholder(p.urlTemplate, p);
       const linkText = p.label === 'Email' ? p.username : homepage;
       return `- ${p.label}: [${linkText}](${homepage})`;
@@ -68,7 +68,7 @@ const updateGetInTouch = (lines: string[], config: Config) =>
 
 const updateLastUpdated = (lines: string[]) => {
   const lastUpdatedPrefix = 'Updated on: ';
-  return lines.map(line => {
+  return lines.map((line) => {
     if (line.startsWith(lastUpdatedPrefix)) {
       const lastUpdated = new Date().toString();
       return `${lastUpdatedPrefix}${lastUpdated}`;
