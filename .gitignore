@@ -4,7 +4,6 @@
 **/*.log
 **/*.log.gz
 
-**/.eslintcache
 **/coverage/
 **/node_modules/
 

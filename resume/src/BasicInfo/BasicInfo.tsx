@@ -1,7 +1,5 @@
 import './BasicInfo.css';
 
-import React from 'react';
-
 export const BasicInfo = () => (
   <div className="tile is-ancestor is-vertical">
     <div className="tile is-parent">
@@ -124,11 +122,6 @@ C479.992,209.688,465.68,224,447.992,224z"
       </div>
     </div>
     <div className="tile is-parent">
-      <div className="tile is-child">
-        I&apos;m a full-stack web developer who leans toward the front-end.
-        I&apos;m looking for a senior software engineer role in both west and
-        east coasts.
-      </div>
     </div>
   </div>
 );

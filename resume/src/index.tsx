@@ -1,13 +1,16 @@
-import 'bulma/css/bulma.min.css';
+import "bulma/css/bulma.min.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Container from "./Container";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+let container = document.getElementById("root");
+if (!container) {
+	container = document.createElement("div");
+	document.body.appendChild(container);
+}
 
-import Container from './Container';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Container />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.createRoot(container).render(
+	<React.StrictMode>
+		<Container />
+	</React.StrictMode>,
 );
