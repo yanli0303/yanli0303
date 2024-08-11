@@ -10,10 +10,10 @@
 
 I'm a full-stack web developer who is passionate about empowering people with technology.
 
-- I'm very interested in making applications in JavaScript, with libraries and tools like [React](https://reactjs.org/), [Material-UI](https://material-ui.com/), [CSS-in-JS](https://cssinjs.org/), [scss](https://sass-lang.com/), and [Electron](https://www.electronjs.org/).
-- I like the expressive syntax of the [Swift](https://swift.org/) programming language, I coded with Swift for three years and developed macOS desktop applications with it.
+- I'm very interested in making applications in JS/TS, with libraries and tools like [React](https://reactjs.org/), [Material-UI](https://material-ui.com/), [CSS-in-JS](https://cssinjs.org/), [scss](https://sass-lang.com/), and [Electron](https://www.electronjs.org/).
 - I used to develop web applications in [Python](https://www.python.org/) and was impressed by the pragmatic design of the [Django](https://www.djangoproject.com/) framework.
-- In the first few years of my career, I made a few web applications with [C#](https://docs.microsoft.com/en-us/dotnet/csharp/), [ASP.NET](https://dotnet.microsoft.com/apps/aspnet), and [PHP](https://www.php.net/).
+- I like the expressive syntax of the [Swift](https://swift.org/) programming language, I coded with Swift for three years and developed macOS desktop applications with it.
+- I made a few web applications with [C#](https://docs.microsoft.com/en-us/dotnet/csharp/), [ASP.NET](https://dotnet.microsoft.com/apps/aspnet), and [PHP](https://www.php.net/) in the first few years of my career.
 
 ## Get in touch
 
@@ -26,7 +26,7 @@ I'm a full-stack web developer who is passionate about empowering people with te
 <!--GET_IN_TOUCH_END-->
 
 <br/>
-Updated on: Wed Aug 07 2024 00:47:19 GMT-0400 (Eastern Daylight Time)
+Updated on: Wed Aug 11 2024 00:47:19 GMT-0400 (Eastern Daylight Time)
 <br/>
 
 ![Visits](https://enhrg2qpogcatw6.m.pipedream.net)
