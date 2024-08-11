@@ -6,15 +6,13 @@ export const Skills = () => (
     <div className="columns is-2">
       <div className="column is-2 has-text-weight-bold">Highly Proficient</div>
       <div className="column">
-        Front-end web development, code in both JavaScript and TypeScript with
-        React, Redux, ...etc.
+        Front-end web development in JS/TS with React and Redux.
       </div>
     </div>
     <div className="columns is-2">
       <div className="column is-2 has-text-weight-bold">Proficient</div>
       <div className="column">
-        HTTP and REST protocols, design principles, caching mechanisms, and both
-        relational and NoSQL databases.
+        HTTP and REST protocols, design principles, caching mechanisms, and databases.
       </div>
     </div>
     <div className="columns is-2">
