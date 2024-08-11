@@ -38,8 +38,8 @@ export const Experiences = () => (
             <a target="_blank" rel="noopener noreferrer" href="https://lightning.network/">
               Lightning Network
             </a>
-            . Designed and implemented cross-platform user interfaces, including a browser extension, a website, and
-            mobile applications. Created robust administrative and provisioning tools to support the Lightning Network
+            . Designed and implemented cross-platform user interfaces, including a browser extension, web and mobile SDKs, web wallet, 
+            and mobile applications.  Created robust administrative and provisioning tools to support the Lightning Network
             ecosystem.
           </p>
         </li>
