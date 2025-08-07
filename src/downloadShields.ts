@@ -1,5 +1,5 @@
-import { download, fs } from "node-build-tools";
 import { join } from "node:path";
+import { download, fs } from "node-build-tools";
 import type { Config } from "./Config";
 import type { Profile } from "./Profile";
 import { ShieldFormat } from "./ShieldFormat";

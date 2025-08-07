@@ -1,5 +1,5 @@
 export enum ShieldFormat {
-  labelled = 'labelled',
-  unlabelled = 'unlabelled',
-  iconOnly = 'icon-only',
+  labelled = "labelled",
+  unlabelled = "unlabelled",
+  iconOnly = "icon-only",
 }

@@ -18,7 +18,5 @@
     "target": "ES2016",
     "useDefineForClassFields": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

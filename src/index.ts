@@ -1,8 +1,8 @@
 import { join } from "node:path";
 import type { Config } from "./Config";
+import { downloadShields } from "./downloadShields";
 import { ShieldFormat } from "./ShieldFormat";
 import { ShieldStyle } from "./ShieldStyle";
-import { downloadShields } from "./downloadShields";
 import { updateReadme } from "./updateReadme";
 
 const config: Config = {
