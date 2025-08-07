@@ -1,5 +1,6 @@
 @media print {
-  #rainy, #printer {
+  #rainy,
+  #printer {
     display: none;
   }
 

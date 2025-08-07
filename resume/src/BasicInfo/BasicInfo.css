@@ -3,3 +3,18 @@
   height: 8em;
   border-radius: 4em;
 }
+
+.basic-info {
+  padding: 1em 1rem 0 1rem;
+}
+
+.basic-info > .tile {
+  margin-bottom: 1em;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

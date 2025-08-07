@@ -1,8 +1,6 @@
 .resume {
-  background-color: rgba(245,247,241,0.9);
+  background-color: rgba(245, 247, 241, 0.9);
   padding: 1em;
-  width: 100%;
-  max-width: 960px;
 }
 
 .resume > * {
