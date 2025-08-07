@@ -6,14 +6,11 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "lint": "biome lint src --fix",
-    "build": "tsdx build",
-    "postbuild": "node dist/index.js"
+    "build": "tsx src/index.ts"
   },
   "dependencies": {
     "node-build-tools": "^0.3.2",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
+    "typescript": "^5.9.2"
   },
   "repository": {
     "type": "git",
@@ -30,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/yanli0303/yanli0303/issues"
   },
-  "homepage": "https://github.com/yanli0303/yanli0303#readme"
+  "homepage": "https://github.com/yanli0303/yanli0303#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.4",
+    "@types/node": "^24.2.0",
+    "tsx": "^4.20.3"
+  }
 }
