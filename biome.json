@@ -16,5 +16,13 @@
       "trailingCommas": "none"
     }
   },
-  "linter": {}
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "a11y": "off",
+      "suspicious": {
+        "noExplicitAny": "off"
+      }
+    }
+  }
 }
