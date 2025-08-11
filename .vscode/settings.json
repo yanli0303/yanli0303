@@ -5,7 +5,7 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "cSpell.words": ["bulma", "fullheight"],
+  "cSpell.words": ["Beyondsoft", "bulma", "fullheight"],
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
