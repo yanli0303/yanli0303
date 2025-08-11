@@ -3,6 +3,7 @@ import EmmaLogo from "./emma-logo.jpg";
 import HyperLogo from "./hyper-logo.jpg";
 import LightingLogo from "./lightning-logo.png";
 import OrangeLogo from "./orange-logo.png";
+import SILogo from "./si-logo.png";
 import UsherLogo from "./usher-logo.jpg";
 import WorkstationLogo from "./workstation-logo.jpg";
 
@@ -20,6 +21,35 @@ export const Experiences = () => (
     </div>
     <div className="content">
       <ul>
+        <li>
+          <div className="heading">
+            <img className="icon is-small" src={SILogo} alt="Streaming Intelligence logo" />
+            <span>Stream BTC</span>
+          </div>
+          <p>
+            Designed the architecture for Stream BTC, a serverless platform delivering curated financial insights on
+            Strategy and Bitcoin. Defined robust data models for cards, card sets, datasets, and channels, leveraging
+            AWS DynamoDB, Lambda, API Gateway, S3, CloudFront, and SNS for scalable, secure, and efficient operations.
+            Led development of both the user-facing website and the administrative portal, enabling dynamic content
+            management and personalized user experiences. Engineered automated data ingestion pipelines using Lambda and
+            EventBridge, and built a rendering system for card content. Fine-tuned LLMs with Strategy data to power the
+            Smart Insight Discovery Engine, which surfaces actionable trends and insights for users. Oversaw end-to-end
+            delivery from prototype to production, ensuring high performance and maintainability.
+          </p>
+        </li>
+        <li>
+          <div className="heading">
+            <img className="icon is-small" src={SILogo} alt="Streaming Intelligence logo" />
+            <span>Streaming Intelligence</span>
+          </div>
+          <p>
+            Designed and developed an Entity Service integrating Microsoft 365 and Google Workspace to extract keywords
+            from meetings and emails using named entity recognition (NER). Ranked user-keyword affinity based on message
+            importance and communication frequency. Prototyped and evaluated NER models (SpaCy, LLM) and database
+            architectures (graph, relational). Created an efficient algorithm for user-keyword affinity scoring using
+            fuzzy matching and vector similarity search.
+          </p>
+        </li>
         <li>
           <div className="heading">
             <img className="icon is-small" src={OrangeLogo} alt="Orange logo" />
@@ -56,7 +86,6 @@ export const Experiences = () => (
             >
               Hyper Intelligence
             </a>
-            <span> - inject analytics and intelligence into every user&apos;s experience.</span>
           </div>
           <p>
             Led the design of Hyper Intelligence SDK and apps of{" "}
@@ -97,13 +126,13 @@ export const Experiences = () => (
             >
               Workstation
             </a>
-            <span> - the unified tools for MicroStrategy Products</span>
+            <span> - the unified tools for Strategy Products</span>
           </div>
           <p>
             As the Workstation macOS app developer, I independently built core features such as authentication and
             R/Python integration, implemented CI/CD pipelines with Jenkins, and designed i18n workflows that reduced
             developer time by 40%. In my spare time, I created a "Lost In Translation" website to streamline app
-            localization, which was widely adopted across MicroStrategy projects. I also recruited and mentored new
+            localization, which was widely adopted across Strategy projects. I also recruited and mentored new
             engineers.
           </p>
         </li>
