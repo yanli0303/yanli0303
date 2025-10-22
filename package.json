@@ -5,12 +5,13 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "lint": "biome lint src --fix",
+    "postinstall": "([ -d .git ] && ln -s -f -v $(pwd)/pre-commit.sh .git/hooks/pre-commit) || echo 'No .git directory, is this a git worktree?'",
+    "lint": "biome check --write src",
     "build": "tsx src/index.ts"
   },
   "dependencies": {
     "node-build-tools": "^0.3.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,14 @@
   },
   "homepage": "https://github.com/yanli0303/yanli0303#readme",
   "devDependencies": {
-    "@biomejs/biome": "^2.1.4",
-    "@types/node": "^24.2.0",
-    "tsx": "^4.20.3"
+    "@biomejs/biome": "^2.2.7",
+    "@types/node": "^24.9.1",
+    "lint-staged": "^16.2.6",
+    "tsx": "^4.20.6"
+  },
+  "lint-staged": {
+    "*.{mjs,cjs,js,jsx,ts,tsx}": [
+      "biome check --write"
+    ]
   }
 }

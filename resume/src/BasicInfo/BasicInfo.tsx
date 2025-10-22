@@ -6,6 +6,7 @@ export const BasicInfo = () => (
       <div className="tile is-child has-text-centered">
         <h3 className="title is-3">
           <span>Yan Li</span>
+          {/* biome-ignore lint/correctness/useUniqueElementIds: ID is unique */}
           <button
             id="printer"
             type="button"

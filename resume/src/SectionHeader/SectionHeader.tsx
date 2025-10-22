@@ -1,4 +1,4 @@
-import './SectionHeader.css';
+import "./SectionHeader.css";
 
 export const SectionHeader = ({ title }: { title: string }) => (
   <header className="section-header arrow-right">

@@ -1,15 +1,9 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.2.7/schema.json",
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
     "lineWidth": 120
-  },
-  "javascript": {
-    "formatter": {
-      "arrowParentheses": "asNeeded",
-      "quoteStyle": "double"
-    }
   },
   "json": {
     "formatter": {
@@ -20,6 +14,9 @@
     "enabled": true,
     "rules": {
       "a11y": "off",
+      "complexity": {
+        "noImportantStyles": "off"
+      },
       "suspicious": {
         "noExplicitAny": "off"
       }
