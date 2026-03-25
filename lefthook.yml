@@ -1,0 +1,29 @@
+# EXAMPLE USAGE:
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+#
+
+pre-push:
+  parallel: true
+  jobs:
+    - name: lint root
+      run: npm run lint
+
+    - name: audit root
+      run: npm audit
+
+    - name: lint resume
+      run: cd resume && npm run lint
+
+    - name: audit resume
+      run: cd resume && npm audit
+
+pre-commit:
+  parallel: true
+  jobs:
+    - name: lint and fix
+      run: npx biome check --write {staged_files}
+      glob: "*.{js,mjs,cjs,jsx,ts,tsx,json,html,css,scss}"
+      exclude: docs/**
+      stage_fixed: true
