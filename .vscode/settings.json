@@ -1,8 +1,5 @@
 {
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json][jsonc][typescript][typescriptreact][javascript][javascriptreact]": {
+  "[json][jsonc][typescript][typescriptreact][javascript][javascriptreact][html][css][scss]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
   "biome.configurationPath": "biome.jsonc",
@@ -21,13 +18,12 @@
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "search.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
     "**/Thumbs.db": true,
     "**/dist": true,
     "**/node_modules": true
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  }
 }
